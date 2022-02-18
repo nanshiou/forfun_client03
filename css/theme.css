@@ -53,7 +53,7 @@ h1, h2, .h3, h4, h5, h6 {
 
 body {
   line-height: 1.5;
-  background: #FF315E;
+  background: #ff3f69;
   font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
 
@@ -85,8 +85,6 @@ html, body {
 }
 
 .fullPage {
-  background-size: cover;
-  background-position: center;
   text-align: center;
   overflow: hidden;
   background: url("../images/section-1-bg.jpg") center/cover;
@@ -96,7 +94,7 @@ html, body {
   position: relative;
 }
 
-@media (min-width: 569px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .fullPage {
     height: auto;
   }

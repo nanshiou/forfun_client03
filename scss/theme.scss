@@ -49,7 +49,7 @@ h1, h2, .h3, h4, h5, h6{
 body{
     line-height: 1.5;
     // position: relative;
-    background: #FF315E;
+    background: #ff3f69;
     // max-width: 37.5rem;
     font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
@@ -82,8 +82,6 @@ $screenwidth: 750;
 }
 
 .fullPage{
-    background-size: cover;
-    background-position: center;
     text-align: center;
     overflow: hidden;
     background: url("../images/section-1-bg.jpg") center/cover;
@@ -91,7 +89,7 @@ $screenwidth: 750;
     width: 100%;
     height: 100vh;
     position: relative;
-    @media (min-width: 569px) and (max-width: 1024px) {
+    @media (max-width: 1024px) {
         height: auto;
     }
 }
